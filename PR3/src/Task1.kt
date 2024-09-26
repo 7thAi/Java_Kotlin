@@ -27,7 +27,7 @@ fun main() {
     person.changeName(newName)
 }
 
-class Person (var name: String, var age: Int, var gender: String) {
+open class Person (var name: String, var age: Int, var gender: String) {
 
     fun display() {
         println("Name: $name")
